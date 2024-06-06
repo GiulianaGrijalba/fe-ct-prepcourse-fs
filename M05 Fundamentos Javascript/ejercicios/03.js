@@ -2,5 +2,6 @@
 // Reemplaza el valor de null por el correspondiente.
 
 const nuevoBoolean = null;
+const nuevoBooleanCorregido = true;
 
 module.exports = nuevoBoolean;

@@ -3,7 +3,11 @@ function pasarUsuarioAPremium(objetoMuchosUsuarios) {
   // Cada usuario tiene una propiedad llamada "esPremium".
   // Define esta propiedad de todos los usuarios como true.
   // Retornar el arreglo.
-  // Tu código:
-}
-
+  // Tu código: for (let usuario of objetoMuchosUsuarios) {
+    for (let usuario of objetoMuchosUsuarios) {
+      usuario.esPremium = true;
+    }
+    return objetoMuchosUsuarios;
+  }
+  
 module.exports = pasarUsuarioAPremium;
